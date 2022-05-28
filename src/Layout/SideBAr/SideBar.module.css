@@ -1,0 +1,65 @@
+.white {
+  color: #fff; }
+
+.SideBar {
+  position: fixed;
+  z-index: 4; }
+  .SideBar .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+    align-items: center;
+    margin-left: 20px; }
+    .SideBar .container .Whatsapp__icon {
+      border-radius: 7px;
+      backdrop-filter: blur(2px);
+      padding: 10px;
+      margin-top: 30px;
+      transition: .3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.2); }
+      .SideBar .container .Whatsapp__icon svg path {
+        fill: #fff; }
+      .SideBar .container .Whatsapp__icon:hover {
+        background-color: #289b3f; }
+    .SideBar .container .Instagram__icon {
+      backdrop-filter: blur(2px);
+      border-radius: 7px;
+      padding: 10px;
+      margin-top: 30px;
+      transition: .3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.2); }
+      .SideBar .container .Instagram__icon svg path {
+        fill: #fff; }
+      .SideBar .container .Instagram__icon:hover {
+        background: #a12188; }
+    .SideBar .container .Facebook__icon {
+      backdrop-filter: blur(2px);
+      border-radius: 7px;
+      padding: 10px;
+      margin-top: 30px;
+      transition: .3s ease-in-out;
+      margin-bottom: 30px;
+      background-color: rgba(0, 0, 0, 0.2); }
+      .SideBar .container .Facebook__icon svg path {
+        fill: #fff; }
+      .SideBar .container .Facebook__icon:hover {
+        background-color: #256da5; }
+
+@media all and (max-width: 425px) {
+  .SideBar {
+    position: static;
+    width: 290px;
+    margin: 0 auto; }
+    .SideBar .container {
+      margin-top: 76vh;
+      position: absolute;
+      display: flex;
+      flex-direction: row; }
+      .SideBar .container .Whatsapp__icon {
+        margin: 0 20px; }
+      .SideBar .container .Instagram__icon {
+        margin: 0 20px; }
+      .SideBar .container .Facebook__icon {
+        margin: 0 20px; } }
+
+/*# sourceMappingURL=SideBar.module.css.map */

@@ -1,0 +1,310 @@
+.main {
+    padding-top: 25vh;
+    background-image: url("https://i.ibb.co/ThVwvWp/KG-main.png");
+    background-size: cover;
+    max-width: 2560px;
+    width: 100%;
+    height: 75vh;
+    font-family: CodeNext_Light; }
+    .main .heading_main {
+      text-align: center;
+      width: 550px;
+      margin: 0 auto; }
+      .main .heading_main h1 {
+        font-size: 80px;
+        text-transform: uppercase;
+        color: aliceblue;
+        padding-bottom: 5vh; }
+  
+  .container {
+    width: 1200px;
+    margin: 20px auto;
+    font-family: CodeNext_Light; }
+    .container h2 {
+      color: #7FC002; }
+    .container .Kyrgyzstan__info {
+      width: 800px;
+      margin: 0 auto; }
+      .container .Kyrgyzstan__info p {
+        text-align: center; }
+    .container .slider {
+      display: flex; }
+      .container .slider img {
+        padding: 0 12px;
+        width: 90%; }
+  
+  .capital__city .capital__info {
+    line-height: 35px; }
+  
+  .weather__city .weather__info {
+    margin: 0  auto; }
+    .weather__city .weather__info h2 {
+      text-align: center; }
+    .weather__city .weather__info p {
+      text-align: end;
+      line-height: 35px; }
+  
+  .df {
+    display: flex;
+    justify-content: space-between; }
+  
+  .culture__city {
+    margin: 40px 0 0 0; }
+    .culture__city .culture__info {
+      width: 500px; }
+      .culture__city .culture__info p {
+        width: 100%;
+        line-height: 45px; }
+  
+  .nationalFood__ h2 {
+    color: #7FC002; }
+  .nationalFood__ .nationalFood__info {
+    text-align: center; }
+  
+  @media all and (max-width: 2560px) {
+    .slider {
+      display: flex; }
+    .slider .mySwiper {
+      height: 500px; }
+    .slider .mySwiper img {
+      height: 440px;
+      width: 300px; } }
+  @media all and (max-width: 1440px) {
+    .slider {
+      display: flex; }
+      .slider .mySwiper {
+        height: 500px; }
+        .slider .mySwiper img {
+          height: 440px;
+          width: 300px; } }
+  @media all and (max-width: 1024px) {
+    .main {
+      max-width: 1024px;
+      width: 100%; }
+  
+    .container {
+      width: 900px; }
+      .container .Kyrgyzstan__info {
+        width: 800px;
+        margin: 0 auto; }
+      .container .slider {
+        display: flex; }
+        .container .slider .mySwiper {
+          height: 300px; }
+          .container .slider .mySwiper img {
+            width: 220px; }
+  
+    .capital__city .capital__info {
+      line-height: 35px; }
+  
+    .capital__pic img {
+      width: 440px; }
+  
+    .weather__city .weather__info {
+      margin: 0  auto; }
+      .weather__city .weather__info h2 {
+        text-align: center; }
+      .weather__city .weather__info p {
+        text-align: end;
+        line-height: 35px; }
+  
+    .culture__city img {
+      width: 400px; }
+    .culture__city .culture__info {
+      width: 450px; }
+      .culture__city .culture__info p {
+        width: 100%;
+        line-height: 35px;
+        font-size: 18px; }
+  
+    .weather_pic img {
+      width: 290px; }
+  
+    .nationalFood__ .df img {
+      width: 290px; } }
+  @media all and (max-width: 768px) {
+    .main {
+      max-width: 768px;
+      width: 100%; }
+  
+    .container {
+      width: 650px; }
+      .container .Kyrgyzstan__info {
+        width: 600px;
+        margin: 0 auto; }
+      .container .slider .mySwiper {
+        display: none; }
+  
+    .capital__city .capital__info {
+      line-height: 35px; }
+  
+    .capital__pic img {
+      width: 300px; }
+  
+    .weather__city .weather__info {
+      margin: 0  auto; }
+      .weather__city .weather__info h2 {
+        text-align: end; }
+      .weather__city .weather__info p {
+        text-align: end;
+        line-height: 35px; }
+  
+    .culture__city .df {
+      align-items: center; }
+    .culture__city img {
+      width: 300px; }
+    .culture__city .culture__info {
+      width: 340px; }
+      .culture__city .culture__info p {
+        padding: 0 5px;
+        width: 340px;
+        line-height: 30px;
+        font-size: 18px; }
+  
+    .weather_pic img {
+      width: 190px; }
+  
+    .nationalFood__ .df img {
+      width: 190px; } }
+  @media all and (max-width: 425px) {
+    .main {
+      width: 425px;
+      height: 80vh; }
+      .main .heading_main {
+        width: 320px; }
+        .main .heading_main h1 {
+          font-size: 40px; }
+  
+    .container {
+      width: 390px;
+      text-align: center;
+      align-items: center; }
+      .container .Kyrgyzstan__info {
+        width: 350px;
+        margin: 0 auto;
+        font-size: 18px; }
+      .container .slider {
+        display: none; }
+  
+    .capital__city .capital__info {
+      line-height: 30px;
+      font-size: 16px; }
+  
+    .capital__pic .df {
+      font-size: 18px;
+      display: block;
+      width: 390px;
+      margin: 0 auto; }
+      .capital__pic .df img {
+        width: 390px; }
+  
+    .weather__city .weather__info {
+      margin: 0  auto; }
+      .weather__city .weather__info h2 {
+        text-align: center; }
+      .weather__city .weather__info p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px; }
+    .weather__city .weather_pic .df img {
+      width: 390px;
+      border-radius: 15px; }
+      .weather__city .weather_pic .df img:nth-child(3) {
+        display: none; }
+      .weather__city .weather_pic .df img:nth-child(2) {
+        display: none; }
+  
+    .culture .df {
+      display: block;
+      width: 390px; }
+      .culture .df .culture__info {
+        text-align: center;
+        width: 390px; }
+        .culture .df .culture__info p {
+          margin: 0 auto;
+          text-align: center;
+          font-size: 18px;
+          line-height: 20px; }
+  
+    .weather_pic img {
+      width: 10px; }
+  
+    .nationalFood__ {
+      font-size: 18px; }
+      .nationalFood__ .df img {
+        width: 340px;
+        margin: 0 auto; }
+        .nationalFood__ .df img:nth-child(2) {
+          display: none; }
+        .nationalFood__ .df img:nth-child(3) {
+          display: none; } }
+  @media all and (max-width: 375px) {
+    .main {
+      width: 375px;
+      height: 80vh; }
+      .main .heading_main {
+        width: 320px; }
+        .main .heading_main h1 {
+          font-size: 40px; }
+  
+    .container {
+      width: 350px;
+      text-align: center;
+      align-items: center; }
+      .container .Kyrgyzstan__info {
+        width: 350px;
+        margin: 0 auto;
+        font-size: 18px; }
+      .container .slider {
+        display: none; }
+  
+    .capital__city .capital__info {
+      line-height: 30px;
+      font-size: 16px; }
+  
+    .capital__pic .df {
+      font-size: 18px;
+      display: block;
+      width: 350px;
+      margin: 0 auto; }
+      .capital__pic .df img {
+        width: 350px; }
+  
+    .weather__city .weather__info {
+      margin: 0  auto; }
+      .weather__city .weather__info p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px; }
+    .weather__city .weather_pic .df img {
+      width: 350px; }
+      .weather__city .weather_pic .df img:nth-child(3) {
+        display: none; }
+      .weather__city .weather_pic .df img:nth-child(2) {
+        display: none; }
+  
+    .culture .df {
+      display: block;
+      width: 350px; }
+      .culture .df .culture__info {
+        width: 350px; }
+        .culture .df .culture__info p {
+          padding: 0;
+          font-size: 14px;
+          line-height: 25px; }
+  
+    .weather_pic img {
+      width: 290px; }
+  
+    .nationalFood__ {
+      font-size: 18px; }
+      .nationalFood__ .df img {
+        width: 340px;
+        margin: 0 auto; }
+        .nationalFood__ .df img:nth-child(2) {
+          display: none; }
+        .nationalFood__ .df img:nth-child(3) {
+          display: none; } }
+  
+  /*# sourceMappingURL=Kyrgyzstan.module.css.map */
+  

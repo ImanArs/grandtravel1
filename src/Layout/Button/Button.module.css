@@ -1,0 +1,35 @@
+.button {
+  color: #fff;
+  letter-spacing: 2px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 255, 255, 0);
+  padding: 0 30px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  text-transform: uppercase; }
+  .button:hover {
+    border: 1px solid #7FC002;
+    color: #fff;
+    background: #7FC002; }
+
+.buttonB {
+  color: #fff;
+  letter-spacing: 2px;
+  backdrop-filter: blur(2px);
+  padding: 0 30px;
+  height: 40px;
+  border-radius: 10px;
+  background: #7FC002;
+  transition: .3s ease-in-out;
+  border: 1px solid #7FC002;
+  cursor: pointer;
+  text-transform: uppercase; }
+  .buttonB:hover {
+    border: 1px solid #7FC002;
+    background: rgba(255, 255, 255, 0.205);
+    color: #7FC002; }
+
+/*# sourceMappingURL=Button.module.css.map */

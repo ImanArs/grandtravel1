@@ -1,0 +1,210 @@
+.Cards {
+    padding: 0 12px; }
+  .title {
+    text-align: center;
+    padding-top: 15vh;
+  }
+  .Card__info {
+    cursor: grab;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid #000; }
+    .Card__info img {
+      width: 100%; }
+  
+  .Card__text {
+    position: relative;
+    margin: 0 auto;
+    height: 290px;
+    padding: 0 10px; }
+    .Card__text h4 {
+      font-size: 22px; }
+    .Card__text p {
+      font-size: 18px;
+      height: 150px; }
+    .Card__text button {
+      color: #fff;
+      border-radius: 5px;
+      transition: .3s ease-in-out;
+      border: 1px solid #7FC002;
+      border-radius: 10px;
+      padding: 0 30px;
+      height: 40px;
+      letter-spacing: 2px;
+      background: #7FC002;
+      cursor: pointer; }
+      .Card__text button:hover, .Card__text button:focus {
+        color: #7FC002;
+        background: #fff;
+        border: 1px solid #7FC002; }
+  
+  .mySwiper {
+    width: 1200px;
+    height: 570px;
+    padding-top: 5vh; }
+  
+  .more {
+    padding: 50px 50px; }
+    .more h2 {
+      margin: 0;
+      color: rgba(0, 0, 0, 0.309);
+      font-size: 66px; }
+    .more p {
+      padding: 10px 0; }
+  
+  @media all and (max-width: 1024px) {
+    .mySwiper {
+      width: 900px; }
+    
+    .Card__info {
+      cursor: grab;
+      width: 400px;
+      border-radius: 20px; }
+    .Card__info img {
+        width: 100%; }
+          
+    .Card__text {
+      position: relative;
+      margin: 0 auto;
+      height: 250px;
+      padding: 0 10px; }
+    .Card__text h4 {
+      font-size: 20px; }
+    .Card__text p {
+      font-size: 17px;
+      height: 120px;
+      overflow: none; }
+    .Card__text button {
+      border-radius: 10px;
+      padding: 10px 20px;
+      letter-spacing: 2px;
+      background: #7FC002;
+      cursor: pointer; }
+    .Card__text button:hover, .Card__text button:focus {
+      color: #7FC002;
+      background: #fff;
+      border: 1px solid #7FC002; } }
+  @media all and (max-width: 768px) {
+    .mySwiper {
+      width: 600px;
+      height: 500px; }
+  
+    .Card__info {
+      cursor: grab;
+      width: 270px;
+      border-radius: 15px;
+      border: 1px solid #000; }
+      .Card__info img {
+        width: 100%; }
+  
+    .Card__text {
+      position: relative;
+      margin: 0 auto;
+      height: 230px;
+      padding: 0 10px; }
+      .Card__text h4 {
+        font-size: 18px; }
+      .Card__text p {
+        font-size: 15px;
+        height: 120px;
+        overflow: scroll; }
+      .Card__text button {
+        width: 100px;
+        border-radius: 10px;
+        padding: 0 10px;
+        height: 30px;
+        letter-spacing: 2px;
+        background: #7FC002;
+        cursor: pointer; }
+        .Card__text button:hover, .Card__text button:focus {
+          color: #7FC002;
+          background: #fff;
+          border: 1px solid #7FC002; }
+  
+    .more {
+      font-size: 18px; } }
+  @media all and (max-width: 425px) {
+    .title {
+      text-align: center;
+      font-size: 24px;
+      padding-top: 15vh;
+    }
+    .mySwiper {
+      width: 400px;
+      height: 460px; }
+  
+    .Card__info {
+      cursor: grab;
+      width: 200px;
+      border-radius: 10px;
+      border: 1px solid #000; }
+      .Card__info img {
+        width: 100%; }
+  
+    .Card__text {
+      position: relative;
+      margin: 0 auto;
+      height: 230px;
+      padding: 0 10px; }
+      .Card__text h4 {
+        font-size: 18px; }
+      .Card__text p {
+        font-size: 15px;
+        height: 120px;
+        overflow: none; }
+      .Card__text button {
+        width: 100px;
+        border-radius: 10px;
+        padding: 0 10px;
+        height: 30px;
+        letter-spacing: 2px;
+        background: #7FC002;
+        cursor: pointer; }
+        .Card__text button:hover, .Card__text button:focus {
+          color: #7FC002;
+          background: #fff;
+          border: 1px solid #7FC002; } }
+  @media all and (max-width: 375px) {
+    .mySwiper {
+      width: 350px;
+      height: 470px; }
+  
+    .more_text {
+      font-weight: 300;
+    }
+  
+    .Card__info {
+      cursor: grab;
+      width: 180px;
+      border-radius: 10px;
+      border: 1px solid #000; }
+      .Card__info img {
+        width: 100%; }
+  
+    .Card__text {
+      position: relative;
+      margin: 0 auto;
+      height: 230px;
+      padding: 0 10px; }
+      .Card__text h4 {
+        font-size: 18px; }
+      .Card__text p {
+        font-size: 15px;
+        font-weight: 300;
+        height: 120px;
+        overflow-y: scroll; }
+      .Card__text button {
+        width: 100px;
+        border-radius: 10px;
+        padding: 0 10px;
+        height: 30px;
+        letter-spacing: 2px;
+        background: #7FC002;
+        cursor: pointer; }
+        .Card__text button:hover, .Card__text button:focus {
+          color: #7FC002;
+          background: #fff;
+          border: 1px solid #7FC002; } }
+  
+  /*# sourceMappingURL=toursCard.module.css.map */
+  

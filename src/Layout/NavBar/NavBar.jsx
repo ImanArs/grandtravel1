@@ -11,31 +11,19 @@ const NavBar = () => {
 			{location.pathname === '/' ? (
 				<ul className={styles.nav__active}>
 					<li>
-						<a href='#works'>{t('navBar.work')}</a>
+						<a href='#'>{t('NavBar.Home')}</a>
 					</li>
 					<li>
-						<a href='#installment'>{t('navBar.installment')}</a>
-					</li>
-					<li>
-						<a href='#faq'>{t('navBar.faq')}</a>
-					</li>
-					<li>
-						<a href='#footer'>{t('navBar.contacts')}</a>
+						<a href='#Tours'>{t('NavBar.Tours')}</a>
 					</li>
 				</ul>
 			) : (
 				<ul className={styles.nav}>
 					<li>
-						<Link to='/#works'>{t('navBar.work')}</Link>
+						<Link to='/'>{t('NavBar.Home')}</Link>
 					</li>
 					<li>
-						<Link to='/#installment'>{t('navBar.installment')}</Link>
-					</li>
-					<li>
-						<Link to='/#faq'>{t('navBar.faq')}</Link>
-					</li>
-					<li>
-						<Link to='/#footer'>{t('navBar.contacts')}</Link>
+						<Link to='/#Tours'>{t('NavBar.Tours')}</Link>
 					</li>
 				</ul>
 			)}

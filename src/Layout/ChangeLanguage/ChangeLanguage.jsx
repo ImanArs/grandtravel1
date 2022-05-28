@@ -33,19 +33,23 @@ export default function ChangeLanguage({ setInfo, info }) {
 
 	return (
 		<div className={styles.language__wrapper}>
+			<a href="">
 			<button
 				className={localRU ? '' : styles.active}
 				onClick={() => check('ru')}
 			>
 				RU
 			</button>
+			</a>
 			<div></div>
+			<a href="">
 			<button
 				className={localEN ? '' : styles.active}
 				onClick={() => check('en')}
 			>
 				EN
 			</button>
+			</a>
 		</div>
 	)
 }

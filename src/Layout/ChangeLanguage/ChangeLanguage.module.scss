@@ -3,6 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 4rem;
+	
 	button {
 		border: none;
 		background: none;
@@ -10,10 +11,12 @@
 		font-size: 1rem;
 		font-weight: 600;
 		cursor: pointer;
+		color: #9cd82b;
+		cursor: pointer;
 		line-height: 118.75%;
 	}
 	.active {
-		border-bottom: 3px solid #ff7a00;
+		border-bottom: 3px solid #7FC002;
 		margin-bottom: -3px;
 	}
 	div {

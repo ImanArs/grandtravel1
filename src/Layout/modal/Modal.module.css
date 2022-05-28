@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .list ul:nth-child(1) li {
+    width: 200px; }
+    .list ul:nth-child(1) li button {
+      font-size: 14px;
+      border-radius: 12px;
+      background-color: #6b9d0f;
+      border: none;
+      width: 170px;
+      height: 45px;
+      color: #fff;
+      transition: .3s ease-in-out; }
+      .list ul:nth-child(1) li button:hover {
+        background-color: #73a90f;
+        width: 190px; }
+  .list ul:nth-child(2) li {
+    width: 100px; }
+    .list ul:nth-child(2) li button {
+      border-radius: 12px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      width: 60px;
+      height: 45px;
+      color: #fff;
+      transition: .3s ease-in-out; }
+      .list ul:nth-child(2) li button:hover {
+        background-color: #99d32b;
+        width: 80px; }
+    .list ul:nth-child(2) li img {
+      width: 30px; }
+
+/*# sourceMappingURL=Modal.module.css.map */
