@@ -6,7 +6,7 @@ import '../../i18next'
 export default function ChangeLanguage({ setInfo, info }) {
 	const [localRU, setLocalRU] = useState(true)
 	const [localEN, setLocalEN] = useState(true)
-	const { t, i18n } = useTranslation()
+	const { i18n } = useTranslation()
 	const changleLanguage = lang => {
 		i18n.changeLanguage(lang)
 	}

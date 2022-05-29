@@ -28,7 +28,7 @@ const Gallery = () => {
               {data.map((item, id) => {
                 return(
                   <div className={styles.pics} key={id} >
-                    <img key={id} src={item.imgSrc} style={{width: '100%'}} />
+                    <img key={id} src={item.imgSrc} style={{width: '100%'}} alt='tours'/>
                   </div>
                 )
                 })}

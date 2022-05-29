@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from "./Tours.module.css"
 import Header from '../Header/Header'
 import { useTranslation } from 'react-i18next'
@@ -53,7 +53,7 @@ const TjTours = () => {
             <div className={styles.Cards} >
               <div className={styles.Card__info}>
                 <div>
-                  <img src={item.srcImg} />
+                  <img src={item.srcImg} alt='tours'/>
                 </div>
                 <div className={styles.Card__text}>
                     <h4>{item.title}</h4>
@@ -111,7 +111,7 @@ const TjTours = () => {
             <div className={styles.Cards} >
               <div className={styles.Card__info}>
                 <div>
-                  <img src={item.srcImg} />
+                  <img src={item.srcImg} alt='tours'/>
                 </div>
                 <div className={styles.Card__text}>
                     <h4>{item.title}</h4>
