@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './Kyrgyzstan.module.css'
 import Header from '../Header/Header'
 import SideBar from '../SideBAr/SideBar'
@@ -71,7 +71,7 @@ const Kyrgyzstan = () => {
             sliderImg.map(item => {
               return (
                 <SwiperSlide key={item.id} >
-                  <img src={item.imgSrc} />
+                  <img src={item.imgSrc} alt='nature of kyrgyzstan' />
                 </SwiperSlide>
               )
             })
@@ -85,8 +85,8 @@ const Kyrgyzstan = () => {
           </div>
           <div className={styles.capital__pic} >
             <div className={styles.df} >
-              <img src="https://i.ibb.co/K9FX9tm/Stolitsa-1.png" alt='photo' />
-              <img src="https://i.ibb.co/k4HJn80/Stolitsa-2.png" alt='photo' />
+              <img src="https://i.ibb.co/K9FX9tm/Stolitsa-1.png" alt='capital' />
+              <img src="https://i.ibb.co/k4HJn80/Stolitsa-2.png" alt='capital' />
             </div>
           </div>
         </div>
@@ -97,9 +97,9 @@ const Kyrgyzstan = () => {
           </div>
           <div className={styles.weather_pic} >
             <div className={styles.df} >
-              <img src="https://i.ibb.co/VY85bb4/klimat-1.png" alt='photo' />
-              <img src="https://i.ibb.co/RSbN2Nz/klimat-2.png" alt='photo' />
-              <img src="https://i.ibb.co/34mXdSC/klimat-3.png" alt='photo' />
+              <img src="https://i.ibb.co/VY85bb4/klimat-1.png" alt='weather' />
+              <img src="https://i.ibb.co/RSbN2Nz/klimat-2.png" alt='weather' />
+              <img src="https://i.ibb.co/34mXdSC/klimat-3.png" alt='weather' />
             </div>
           </div>
         </div>
@@ -114,12 +114,12 @@ const Kyrgyzstan = () => {
                             <p>{item.text}</p>
                           </div>
                           <div>
-                            <img src={item.imgSrc} />
+                            <img src={item.imgSrc} alt='culture' />
                           </div>
                         </div>
                         <div className={styles.df}>
                           <div>
-                            <img src={item.imgSrc2}/>
+                            <img src={item.imgSrc2} alt='culture'/>
                           </div>
                           <div className={styles.culture__info}>
                             <p>{item.text2}</p>
@@ -130,7 +130,7 @@ const Kyrgyzstan = () => {
                             <p>{item.text3}</p>
                           </div>
                           <div>
-                            <img src={item.imgSrc3} />
+                            <img src={item.imgSrc3} alt='culture' />
                           </div>
                         </div>
                       </div>
@@ -145,12 +145,12 @@ const Kyrgyzstan = () => {
                         <p>{item.text}</p>
                       </div>
                       <div>
-                        <img src={item.imgSrc} />
+                        <img src={item.imgSrc} alt='culture'/>
                       </div>
                     </div>
                     <div className={styles.df}>
                       <div>
-                        <img src={item.imgSrc2}/>
+                        <img src={item.imgSrc2} alt='culture'/>
                       </div>
                       <div className={styles.culture__info}>
                         <p>{item.text2}</p>
@@ -161,7 +161,7 @@ const Kyrgyzstan = () => {
                         <p>{item.text3}</p>
                       </div>
                       <div>
-                        <img src={item.imgSrc3} />
+                        <img src={item.imgSrc3} alt='culture' />
                       </div>
                     </div>
                   </div>
@@ -174,9 +174,9 @@ const Kyrgyzstan = () => {
           <Heading tag='h2' text={t('KG_Page.KG_NationalFood_Title')} />
           <div>
             <div className={styles.df} >
-              <img src='https://i.ibb.co/556vCyf/kuhnya-1.png' alt='photo' />
-              <img src='https://i.ibb.co/m9jjbpc/kuhnya-2.png' alt='photo' />
-              <img src='https://i.ibb.co/FngBkVV/kuhnya-3.png' alt='photo' />
+              <img src='https://i.ibb.co/556vCyf/kuhnya-1.png' alt='food' />
+              <img src='https://i.ibb.co/m9jjbpc/kuhnya-2.png' alt='food' />
+              <img src='https://i.ibb.co/FngBkVV/kuhnya-3.png' alt='food' />
             </div>
           </div>
           <div className={styles.nationalFood__info} >
@@ -184,9 +184,9 @@ const Kyrgyzstan = () => {
           </div>
           <div>
             <div className={styles.df} >
-              <img src='https://i.ibb.co/hXn5cVL/kuhnya-4.png' alt='photo' />
-              <img src='https://i.ibb.co/K5RMS44/kuhnya-5.png' alt='photo' />
-              <img src='https://i.ibb.co/XYq0mYP/kuhnya-6.png' alt='photo' />
+              <img src='https://i.ibb.co/hXn5cVL/kuhnya-4.png' alt='food' />
+              <img src='https://i.ibb.co/K5RMS44/kuhnya-5.png' alt='food' />
+              <img src='https://i.ibb.co/XYq0mYP/kuhnya-6.png' alt='food' />
             </div>
           </div>
         </div>

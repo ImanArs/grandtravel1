@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Button from './Button/Button'
 import ButtonB from './Button/ButtonB'
 import Heading from './Heading/Heading'
-import Footer from './Footer/Footer'
 import Gallery from './Gallery/Gallery' 
 import Modal from './modal/Modal'
-import Circle from './Circle/Circkle'
 import Header from './Header/Header'
 import styles from './Home.module.scss'
 import SideBar from './SideBAr/SideBar'
@@ -22,17 +20,6 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
 
-
-const TourTrans = () => {
-	const { t } = useTranslation()
-
-	const [info, setInfo] = useState()
-	useEffect(() => {
-		if (localStorage.getItem('i18nextLng') !== '') {
-			setInfo(localStorage.getItem('i18nextLng'))
-		}
-	}, [info])
-}
 
 const Home = () => {
 	const tours = [
@@ -84,7 +71,7 @@ const Home = () => {
         <Button text={t('Main_Page.Main_Phone')} />
       </div>
       <div className={styles.Connect_pic} >
-        <img src='https://i.ibb.co/gVz9p9v/Connect1-2.png'  />
+        <img src='https://i.ibb.co/gVz9p9v/Connect1-2.png' alt='conect' />
       </div>
     </div>
 
@@ -101,9 +88,9 @@ const Home = () => {
       </div>
 
       <div className={styles.about_pic} >
-        <img src='https://i.ibb.co/ZxHCWwb/about-pic.png'  />
+        <img src='https://i.ibb.co/ZxHCWwb/about-pic.png' alt='about' />
         <div className={styles.overlay_pic} >
-          <img src="https://i.ibb.co/HGW1MfX/ring-About-pic.png" />
+          <img src="https://i.ibb.co/HGW1MfX/ring-About-pic.png" alt='circle' />
         </div>
       </div>
     </div>
@@ -126,16 +113,14 @@ const Home = () => {
 			  className={styles.mySwiper}
 			>
 			  {
-				circle.map(item => {
+				circle.map((item, id) => {
 				  return (
-					<div key={item.id} >
-					<SwiperSlide >
+					<SwiperSlide  key={id}>
 					  <div className={styles.circle__image} >
-						<img src={item.Img} alt="tour photos" />
+						<img src={item.Img} alt="tour " />
 						<p>{item.text}</p>
 					  </div>
 					</SwiperSlide>
-					</div>
 				  )
 				})
 			  }
@@ -150,16 +135,14 @@ const Home = () => {
     className={styles.mySwiper}
   >
     {
-      circleEng.map(item => {
+      circleEng.map((item, id) => {
         return (
-          <div key={item.id} >
-          <SwiperSlide >
+          <SwiperSlide  key={id} >
             <div className={styles.circle__image} >
               <img src={item.Img} alt="tour photos" />
               <p>{item.text}</p>
             </div>
           </SwiperSlide>
-          </div>
         )
       })
     }
@@ -181,7 +164,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.client_pic}>
-          <img src="https://i.ibb.co/LrWbc3d/client.png" />
+          <img src="https://i.ibb.co/LrWbc3d/client.png" alt='clients' />
         </div>
       </div>
     </div>
@@ -195,9 +178,9 @@ const Home = () => {
         <div><h2>{t('Main_Page.Main_KG')}</h2></div>
         <div>
           <Link to="/kyrgyzstan" >
-            <a>
+            
               <ButtonB text={t('Main_Page.Main_MoreBtn')} />
-            </a>
+            
           </Link>
         </div>
       </div>
@@ -205,9 +188,9 @@ const Home = () => {
         <div><h2>{t('Main_Page.Main_TJ')}</h2></div>
         <div>
           <Link to="/tajikistan" >
-            <a>
+            
               <ButtonB text={t('Main_Page.Main_MoreBtn')} />
-            </a>
+            
           </Link>
         </div>
       </div>
@@ -216,10 +199,10 @@ const Home = () => {
 			<h2 className={styles.green}>Актуальные туры</h2>
 			<div className={styles.tours} id='Tours'>
 				{info === 'ru' ? (
-					tours.map((item) => (
-						<div className={styles.card} key={item.id} >
+					tours.map((item, id) => (
+						<div className={styles.card} key={id} >
 							<div>
-							<img src={item.img} />
+							<img src={item.img} alt='tours' />
 							</div>
 							<div className={styles.info} >
 							<h3>{item.title}</h3>
@@ -235,10 +218,10 @@ const Home = () => {
 						</div>
 					))
 				):(
-					toursEng.map((item) => (
-						<div className={styles.card} key={item.id} >
+					toursEng.map((item, id) => (
+						<div className={styles.card} key={id} >
 							<div>
-							<img src={item.img} />
+							<img src={item.img} alt='tours' />
 							</div>
 							<div className={styles.info} >
 							<h3>{item.title}</h3>

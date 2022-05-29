@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import React from 'react'
 import styles from './Footer.module.scss'
 import Heading from '../Heading/Heading'
 import '../../i18next.js'

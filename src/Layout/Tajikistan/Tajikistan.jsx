@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import styles from './Tajikistan.module.css'
 import Header from '../Header/Header'
 import SideBar from '../SideBAr/SideBar'
@@ -70,7 +70,7 @@ const Tajikistan = () => {
             sliderImg.map(item => {
               return (
                 <SwiperSlide key={item.id} >
-                  <img src={item.imgSrc} />
+                  <img src={item.imgSrc} alt='nature of tajikistan' />
                 </SwiperSlide>
               );
             })
@@ -83,8 +83,8 @@ const Tajikistan = () => {
           <p> {t('TJ_Page.TJ_Capital_p1')} <br/> {t('TJ_Page.TJ_Capital_p2')} </p>
           </div>
           <div className={styles.df} >
-            <img src="https://i.ibb.co/X4v4tg0/capital-cite-1.png" alt='photo' />
-            <img src="https://i.ibb.co/80X7ykx/capital-cite-2.png" alt='photo' />
+            <img src="https://i.ibb.co/X4v4tg0/capital-cite-1.png" alt='capital city' />
+            <img src="https://i.ibb.co/80X7ykx/capital-cite-2.png" alt='capital city' />
           </div>
         </div>
         <div className={styles.weather__city} >
@@ -94,7 +94,7 @@ const Tajikistan = () => {
           </div>
           
           <div>
-            <img src="https://i.ibb.co/HNJh3Tx/climate.png" alt='photo' />
+            <img src="https://i.ibb.co/HNJh3Tx/climate.png" alt='weather' />
           </div>
         </div>
         <div className={styles.culture__city} >
@@ -108,7 +108,7 @@ const Tajikistan = () => {
                         <p>{item.text}</p>
                     </div>
                     <div>
-                        <img src={item.imgSrc} alt='photo' />
+                        <img src={item.imgSrc} alt='culture' />
                     </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ const Tajikistan = () => {
                         <p>{item.text}</p>
                       </div>
                       <div>
-                        <img src={item.imgSrc} alt='photo' />
+                        <img src={item.imgSrc} alt='culture' />
                       </div>
                     </div>
                   </div>
@@ -136,18 +136,18 @@ const Tajikistan = () => {
           <Heading tag='h2' text={t('TJ_Page.TJ_NationalFood_Title')} />
           <div className={styles.df} >
             <p>{t('TJ_Page.TJ_NationalFood_p1')}</p>
-            <img src='https://i.ibb.co/556vCyf/kuhnya-1.png' alt='photo' />
+            <img src='https://i.ibb.co/556vCyf/kuhnya-1.png' alt='food' />
           </div>
           <div className={styles.df} >
-            <img src='https://i.ibb.co/m9jjbpc/kuhnya-2.png' alt='photo' />
+            <img src='https://i.ibb.co/m9jjbpc/kuhnya-2.png' alt='food' />
             <p>{t('TJ_Page.TJ_NationalFood_p2')}</p>
           </div>
           <div className={styles.df} >
             <p> {t('TJ_Page.TJ_NationalFood_p3')} </p>
-            <img src='https://i.ibb.co/K5RMS44/kuhnya-5.png' alt='photo' />
+            <img src='https://i.ibb.co/K5RMS44/kuhnya-5.png' alt='food' />
           </div>
           <div className={styles.df} >
-            <img src='https://i.ibb.co/XYq0mYP/kuhnya-6.png' alt='photo' />
+            <img src='https://i.ibb.co/XYq0mYP/kuhnya-6.png' alt='food' />
             <p> {t('TJ_Page.TJ_NationalFood_p4')} </p>
           </div>
         </div>
